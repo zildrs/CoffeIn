@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/debox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/debox" />
+
+    <Button
+        android:id="@+id/kedaimiruku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/debox"
+        android:layout_alignStart="@+id/debox"
+        android:layout_below="@+id/debox"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/kedaimiruku1" />
+
+    <Button
+        android:id="@+id/palaiscafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kedaimiruku"
+        android:layout_alignStart="@+id/kedaimiruku"
+        android:layout_below="@+id/kedaimiruku"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/palaiscafe" />
+
+    <Button
+        android:id="@+id/pochacafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/palaiscafe"
+        android:layout_alignStart="@+id/palaiscafe"
+        android:layout_below="@+id/palaiscafe"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/pochacafe1" />
+
+    <Button
+        android:id="@+id/storycafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/debox"
+        android:layout_alignBottom="@+id/debox"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:background="@drawable/storycafe1" />
+
+    <Button
+        android:id="@+id/themooncafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kedaimiruku"
+        android:layout_alignBottom="@+id/kedaimiruku"
+        android:layout_alignLeft="@+id/storycafe"
+        android:layout_alignStart="@+id/storycafe"
+        android:background="@drawable/themooncafe1" />
+
+    <Button
+        android:id="@+id/warkopcinta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/palaiscafe"
+        android:layout_alignBottom="@+id/palaiscafe"
+        android:layout_alignLeft="@+id/themooncafe"
+        android:layout_alignStart="@+id/themooncafe"
+        android:background="@drawable/warkopcinta1" />
+
+    <Button
+        android:id="@+id/yellowhammer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/warkopcinta"
+        android:layout_alignStart="@+id/warkopcinta"
+        android:layout_alignTop="@+id/pochacafe"
+        android:background="@drawable/yellowhammercafe" />
+</RelativeLayout>
